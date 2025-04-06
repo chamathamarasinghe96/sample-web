@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chama Salon</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-pink-50 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-pink-500 text-white py-6 shadow-md">
+    <div class="text-center text-3xl font-bold tracking-wide">
+      Chama Salon
+    </div>
+    <p class="text-center text-sm mt-1">Where elegance meets beauty</p>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="text-center py-16 bg-gradient-to-r from-pink-100 via-white to-pink-100 px-4">
+    <h1 class="text-4xl md:text-5xl font-bold mb-4">Reveal Your True Beauty</h1>
+    <p class="text-lg md:text-xl max-w-2xl mx-auto text-gray-600">
+      Step into Chama Salon — a serene escape where style, care, and confidence are born. Let us bring out the beauty that’s uniquely yours.
+    </p>
+    <button onclick="bookNow()" class="mt-8 bg-pink-500 hover:bg-pink-600 text-white px-6 py-3 rounded-full text-lg transition">
+      Book Your Glow-Up
+    </button>
+  </section>
+
+  <!-- Services -->
+  <section class="py-16 px-4 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-10 text-pink-600">Our Signature Services</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-pink-200 transition duration-300">
+        <h3 class="text-xl font-semibold text-pink-500 mb-2">Lux Hair Styling</h3>
+        <p>Trendy, classic or bold — our stylists create the perfect look to match your vibe and lifestyle.</p>
+      </div>
+      <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-pink-200 transition duration-300">
+        <h3 class="text-xl font-semibold text-pink-500 mb-2">Radiance Facials</h3>
+        <p>Glow like never before with our nourishing facials designed to refresh and revitalize your skin.</p>
+      </div>
+      <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-pink-200 transition duration-300">
+        <h3 class="text-xl font-semibold text-pink-500 mb-2">Bliss Mani-Pedi</h3>
+        <p>Pamper your hands and feet with luxurious treatments that soothe, smooth, and sparkle.</p>
+      </div>
+      <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-pink-200 transition duration-300">
+        <h3 class="text-xl font-semibold text-pink-500 mb-2">Bridal Glam</h3>
+        <p>On your special day, we create timeless bridal beauty that captivates hearts and cameras alike.</p>
+      </div>
+      <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-pink-200 transition duration-300">
+        <h3 class="text-xl font-semibold text-pink-500 mb-2">Threading & Waxing</h3>
+        <p>Smooth finishes and clean lines — get the silky-smooth feel with our expert touch.</p>
+      </div>
+      <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-pink-200 transition duration-300">
+        <h3 class="text-xl font-semibold text-pink-500 mb-2">Scalp & Hair Therapy</h3>
+        <p>Rejuvenate your roots with deep treatments that boost hair strength and shine.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="text-center py-20 bg-pink-100 px-4">
+    <h2 class="text-3xl font-bold mb-4">Ready to Elevate Your Look?</h2>
+    <p class="text-lg text-gray-600 mb-6">Let Chama Salon be your beauty sanctuary.</p>
+    <button onclick="bookNow()" class="bg-pink-600 hover:bg-pink-700 text-white px-8 py-3 rounded-full text-lg transition">
+      Schedule Appointment
+    </button>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-pink-500 text-white text-center py-6 mt-10">
+    <p>&copy; 2025 Chama Salon. Designed with 💖 by You.</p>
+  </footer>
+
+  <!-- JS -->
+  <script>
+    function bookNow() {
+      alert("Thank you for choosing Chama Salon! Booking system coming soon 💅");
+    }
+  </script>
+
+</body>
+</html>
